@@ -3,7 +3,7 @@ import "./Cart.css"
 const Cart = (props) => {
     const {cart} =props;
      const totalReducer = (prevValue,currentValue) => prevValue + currentValue.Cost;
-    const total = cart.reduce(totalReducer,0);
+    const total = cart.reduce(totalReducer,0).toFixed(2);
 
     
     return (

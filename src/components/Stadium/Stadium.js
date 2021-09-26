@@ -10,7 +10,7 @@ const Cart = (props) => {
         <div className="col-md-4">
            
                 <div className="card imagess" >
-                    <img  src={img} className="card-img" alt="..."/>
+                    <img  src={img} className="card-images" alt="..."/>
                     <div className="card-body">
                     <h3 className="card-title">{name}</h3>
                         <p className="card-text">{place}</p>

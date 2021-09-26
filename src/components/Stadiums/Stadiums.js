@@ -6,8 +6,11 @@ const Stadiums = () => {
     const [stadiums,setStadiums] = useState([]);
     const [cart,setCart] = useState([]);
     const eventHandler = (stadium) =>{
-          const newCart = [...cart,stadium]
-          setCart(newCart);
+        let newCart = [];
+        if(cart.indexOf(stadium) === -1){
+            newCart = [...cart, stadium]
+            setCart(newCart)
+        }
     }
     useEffect(()=>{
         fetch('./tools.JSON')

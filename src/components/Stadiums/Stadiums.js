@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
-
 import Stadium from '../Stadium/Stadium';
 
-const Building = () => {
-    const [buildings,setBuildings] = useState([]);
+const Stadiums = () => {
+    const [stadiums,setStadiums] = useState([]);
     const [cart,setCart] = useState([]);
     const eventHandler = (stadium) =>{
           const newCart = [...cart,stadium]
@@ -13,7 +12,7 @@ const Building = () => {
     useEffect(()=>{
         fetch('./tools.JSON')
         .then(res => res.json())
-        .then(data => setBuildings(data))
+        .then(data => setStadiums(data))
     },[])
     return (
         <div>
@@ -21,10 +20,10 @@ const Building = () => {
                 <div className="col-md-9">
                      <div className="row">
                      {
-                          buildings.map(building => <Stadium
-                            key ={building.id}
+                          stadiums.map(stadium => <Stadium
+                            key ={stadium.id}
                             eventHandler={eventHandler}
-                            building={building}
+                            stadium={stadium}
                             ></Stadium>)
                       }
                      </div>
@@ -40,4 +39,4 @@ const Building = () => {
     );
 };
 
-export default Building;
+export default Stadiums;

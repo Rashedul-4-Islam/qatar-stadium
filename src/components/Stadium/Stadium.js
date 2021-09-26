@@ -4,8 +4,8 @@ import { faMousePointer } from '@fortawesome/free-solid-svg-icons'
 import './Stadium.css'
 const Cart = (props) => {
     /*========= destructuring area ===========*/
-    const {name,place,opening,Capacity,img,Cost} = props.building;
-    const shopping = <FontAwesomeIcon icon={faMousePointer} />
+    const {name,place,opening,Capacity,img,Cost} = props.stadium;
+    const pointer = <FontAwesomeIcon icon={faMousePointer} />
     return (
         <div className="col-md-4">
            
@@ -17,7 +17,7 @@ const Cart = (props) => {
                         <p className="card-text">Opening:{opening}</p>
                         <p className="card-text">Capacity:{Capacity}</p>
                         <p className="card-text">Cost:${Cost}M</p>
-                        <button onClick={()=>props.eventHandler(props.building)} href="/shopping" className="btn btn-dark">{shopping} Select-Cart</button>
+                        <button onClick={()=>props.eventHandler(props.stadium)} href="/pointer" className="btn btn-dark">{pointer} Select-Cart</button>
                     </div>
                 </div>
         </div>

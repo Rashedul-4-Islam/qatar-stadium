@@ -1,5 +1,6 @@
 [
-    {"name":"Al-Bayt Stadium",
+    {   "id":"dfdgdfgdfjr",
+        "name":"Al-Bayt Stadium",
         "place":"Al Khor, Qatar",
         "opening":2020,
         "Capacity": "60,000 seats",
@@ -7,7 +8,8 @@
         "img":"https://www.stadiumguide.com/wp-content/uploads/albayt_top.jpg"
     },
 
-    {"name":"Khalifa International Stadium ",
+    {   "id":"dfdgdfgqfjr",
+        "name":"Khalifa International Stadium ",
         "place":"Doha,Qatar",
         "opening":1976,
         "Capacity": "40,000 seats",
@@ -15,7 +17,8 @@
         "img":"https://www.stadiumguide.com/wp-content/uploads/khalifanew_top.jpg"
     },
 
-    {"name":"Lusail Stadium ",
+    {      "id":"dfdgdfgdfjv",
+           "name":"Lusail Stadium ",
            "place":"Lusail, Qatar",
            "opening":2021,
             "Capacity": "80,000 seats",
@@ -23,7 +26,8 @@
             "img":"https://www.stadiumguide.com/wp-content/uploads/lusail2022.jpg"
     },
 
-    {"name":"Al Janoub Stadium",
+    {   "id":"dfygdfgdfjr",
+        "name":"Al Janoub Stadium",
         "place":"Al Wakrah, Qatar",
         "opening":2019,
         "Capacity": "40,000 seats",
@@ -31,35 +35,40 @@
         "img":"https://www.stadiumguide.com/wp-content/uploads/alwakrah_top.jpg"
     },
 
-    {"name":" Education City Stadium ",
+    {   "id":"mfdgdfgdfjr",
+        "name":" Education City Stadium ",
         "place":"Doha, Qatar",
         "opening":2021,
         "Capacity": "40,000 seats",
         "Cost":175.95,
         "img":"https://www.stadiumguide.com/wp-content/uploads/qatarfoundation_top.jpg"
     },
-    {"name":" Ahmad Bin Ali Stadium",
+    {   "id":"nfdvdfgdfjr",
+        "name":" Ahmad Bin Ali Stadium",
         "place":"Doha, Qatar",
         "opening":2020,
         "Capacity": "40,000 seats",
         "Cost":227.35,
         "img":"https://media.gettyimages.com/photos/in-this-handout-image-provided-by-qatar-2022supreme-committee-qatar-picture-id1292391546?s=2048x2048"
     },
-    {"name":"Al Rayyan Stadium  ",
+    {   "id":"dfdgdfldfjr",
+        "name":"Al Rayyan Stadium  ",
         "place":" Al Rayyan,Qatar",
         "opening":2021,
         "Capacity": "40,000 seats",
         "Cost":450.50,
         "img":"https://www.stadiumguide.com/wp-content/uploads/alrayyan_top.jpg"
     },
-    {"name":"Ras Abu Aboud Stadium ",
+    {   "id":"dfdgdogdfjr",
+        "name":"Ras Abu Aboud Stadium ",
         "place":"Ras Abu Aboud,Qatar",
         "opening":2021,
         "Capacity": "40,000 seats",
         "Cost":349,
         "img":"https://www.stadiumguide.com/wp-content/uploads/rasabuaboud2022.jpg"
     },
-    {"name":"Zaha Habib Stadium",
+    {   "id":"dfdgdfgdfgz",
+        "name":"Zaha Habib Stadium",
         "place":" Doha, Qatar",
         "opening":2021,
         "Capacity": "42,000 seats",

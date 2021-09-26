@@ -17,7 +17,7 @@ const Cart = (props) => {
                         <p className="card-text">Opening:{opening}</p>
                         <p className="card-text">Capacity:{Capacity}</p>
                         <p className="card-text">Cost:${Cost}M</p>
-                        <button onClick={()=>props.eventHandler(props.building)} href="/" className="btn btn-dark">{shopping} Select to Cart</button>
+                        <button onClick={()=>props.eventHandler(props.building)} href="/shopping" className="btn btn-dark">{shopping} Select to Cart</button>
                     </div>
                 </div>
         </div>

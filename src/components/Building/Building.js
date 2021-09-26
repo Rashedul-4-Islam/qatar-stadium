@@ -23,6 +23,7 @@ const Building = () => {
                      <div className="row">
                      {
                           buildings.map(building => <Stadium
+                            key ={building.id}
                             eventHandler={eventHandler}
                             building={building}
                             ></Stadium>)
@@ -30,9 +31,6 @@ const Building = () => {
                      </div>
                 </div>
                 <div className="col-md-3">
-                {/* {
-                          buildings.map(building => <Calculation building={building}></Calculation>)
-                      } */}
                       <Cart
                          cart={cart}
                       ></Cart>

@@ -1,0 +1,18 @@
+.stadium-info{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(1, 7, 14);
+    color: rgb(206, 199, 199);
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px rgb(92, 91, 90);
+}
+.stadium-name{
+    font-weight: 600;
+    color: rgb(15, 15, 15);
+    background-color: rgb(246, 241, 247);
+    border-radius: 10px;
+    box-shadow: inset 8px 10px 15px #cbced1,
+    inset  -15px -15px 15px white;
+    margin: 5px;
+    padding: 5px;
+}

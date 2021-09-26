@@ -11,8 +11,13 @@
     color: rgb(15, 15, 15);
     background-color: rgb(246, 241, 247);
     border-radius: 10px;
-    box-shadow: inset 8px 10px 15px #cbced1,
-    inset  -15px -15px 15px white;
-    margin: 5px;
+    box-shadow: inset 8px 10px 15px #989a9c,
+    inset  -10px -10px 15px rgb(240, 223, 223);
+    margin: 15px;
     padding: 5px;
+}
+.cart-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
 }

@@ -12,5 +12,7 @@
     border-radius: 30px;
     font-family:fantasy;
     font-weight:bolder;
-    
+}
+.budget p{
+    font-family: sans-serif;
 }

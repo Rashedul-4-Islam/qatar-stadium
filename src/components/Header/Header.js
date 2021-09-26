@@ -2,7 +2,6 @@ import React from 'react';
 import "./Header.css"
 const Header = () => {
     return (
-        <div>
           <div>
           <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <div className="container-fluid">
@@ -29,12 +28,12 @@ const Header = () => {
             </div>
           </div>
          </nav>
-          </div>
-          <div className="w-50 budget">
+         <div className="w-75 budget">
             <h2>Qatar Stadium</h2>
+            <p> The next tournament hosted by Qatar will take place at nine stadiums from the 21st November to 18nd December 2022.</p>
             <h3>Total Budget: $32.50 Billion</h3>
           </div>
-        </div>
+          </div>
     );
 };
 

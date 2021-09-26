@@ -1,11 +1,11 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
+import { faMousePointer } from '@fortawesome/free-solid-svg-icons'
 import './Stadium.css'
 const Cart = (props) => {
     /*========= destructuring area ===========*/
     const {name,place,opening,Capacity,img,Cost} = props.building;
-    const shopping = <FontAwesomeIcon icon={faShoppingCart} />
+    const shopping = <FontAwesomeIcon icon={faMousePointer} />
     return (
         <div className="col-md-4">
            
@@ -17,7 +17,7 @@ const Cart = (props) => {
                         <p className="card-text">Opening:{opening}</p>
                         <p className="card-text">Capacity:{Capacity}</p>
                         <p className="card-text">Cost:${Cost}M</p>
-                        <button onClick={()=>props.eventHandler(props.building)} href="/shopping" className="btn btn-dark">{shopping} Select to Cart</button>
+                        <button onClick={()=>props.eventHandler(props.building)} href="/shopping" className="btn btn-dark">{shopping} Select-Cart</button>
                     </div>
                 </div>
         </div>

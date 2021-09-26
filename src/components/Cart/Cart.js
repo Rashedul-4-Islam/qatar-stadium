@@ -8,8 +8,9 @@ const Cart = (props) => {
     
     return (
         <div className="stadium-info">
-            <h3>Stadium:{cart.length}</h3>
-            <h4>Total-Cost:${total}M</h4>
+            <h2 className="bg-warning fw-bold text-dark rounded">Build Cost</h2>
+            <h4>Stadium:{cart.length}</h4>
+            <h5>Total-Cost: ${total}M</h5>
             <div>
                 {
                     cart.map(stadium => <h5 className="stadium-name">{stadium.name}</h5>)

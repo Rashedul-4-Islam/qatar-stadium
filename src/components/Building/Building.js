@@ -9,7 +9,6 @@ const Building = () => {
     const eventHandler = (stadium) =>{
           const newCart = [...cart,stadium]
           setCart(newCart);
-        console.log(newCart);
     }
     useEffect(()=>{
         fetch('./tools.JSON')
